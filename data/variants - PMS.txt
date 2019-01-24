@@ -1,0 +1,268 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+# Note : This is Variant of Ships From Panzer Shipyards
+
+#PMS-10
+
+ship "PMS-10" "PMS-10 (Scan)"
+	outfits
+		"Brimstone Missile Launcher" 4
+		"PMK-15" 2		
+		"FlSK-15 Turm"
+		
+		"PZ-G-5 Generator"
+		"PZ-SC-5 Systems Core"
+		"PZ-R-15 Ramscoop"
+		"PZ-CO Scanner" 3
+		
+		"PZT-15 Engine"
+		"PZ-1 Drive"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+		
+ship "PMS-10" "PMS-10 (Scan, Jump)"
+	outfits
+		"Brimstone Missile Launcher" 4
+		"PMK-15" 2		
+		"FlSK-15 Turm"
+		
+		"PZ-G-5 Generator"
+		"PZ-SC-5 Systems Core"
+		"PZ-R-15 Ramscoop"
+		"PZ-CO Scanner" 3
+		
+		"PZT-15 Engine"
+		"PZ-2 Drive"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+		
+ship "PMS-10" "PMS-10 (Ionizer)"
+	outfits
+		"Brimstone Missile Launcher" 4
+		"Ionizer" 2	
+		"FlSK-15 Turm"
+		
+		"PZ-G-5 Generator" 2
+		"PZ-SC-5 Systems Core"
+		"PZ-R-15 Ramscoop"
+		
+		"PZT-15 Engine"
+		"PZ-1 Drive"
+	gun "Ionizer"
+	gun "Ionizer"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+
+ship "PMS-10" "PMS-10 (Ionizer, Jump)"
+	outfits
+		"Brimstone Missile Launcher" 4
+		"Ionizer" 2	
+		"FlSK-15 Turm"
+		
+		"PZ-G-5 Generator" 2
+		"PZ-SC-5 Systems Core"
+		"PZ-R-15 Ramscoop"
+		
+		"PZT-15 Engine"
+		"PZ-2 Drive"
+	gun "Ionizer"
+	gun "Ionizer"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+
+ship "PMS-10" "PMS-10 (Plundering)"
+	outfits
+		"Brimstone Missile Launcher" 4
+		"PMK-15" 2
+		"Plundering Beam"
+		
+		"PZ-G-5 Generator" 2
+		"PZ-SC-5 Systems Core"
+		"PZ-R-15 Ramscoop"
+		
+		"PZT-15 Engine"
+		"PZ-1 Drive"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+
+ship "PMS-10" "PMS-10 (Plundering, Jump)"
+	outfits
+		"Brimstone Missile Launcher" 4
+		"PMK-15" 2
+		"Plundering Beam"
+		
+		"PZ-G-5 Generator" 2
+		"PZ-SC-5 Systems Core"
+		"PZ-R-15 Ramscoop"
+		
+		"PZT-15 Engine"
+		"PZ-2 Drive"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+	gun "Brimstone Missile Launcher"
+
+	
+#PMS-45 Panzer
+
+ship "PMS-45" "PMS-45 (Heavy)"
+	outfits
+		"PMK-15 Turm" 6
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-30 Systems Core"
+		"PZ-1 Drive"
+		"PZT-15 Engine"
+		
+ship "PMS-45" "PMS-45 (Heavy, Jump)"
+	outfits
+		"PMK-15 Turm" 6
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-30 Systems Core"
+		"PZ-2 Drive"
+		"PZT-15 Engine"
+		
+#PMS-60 Schwerer Panzer
+
+ship "PMS-60" "PMS-60 (Missile)"
+	outfits
+		"Brimstone Missile Launcher" 6
+		"PZ-AMT-15" 3
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-1 Drive"
+		"PZT-15 Engine"
+
+ship "PMS-60" "PMS-60 (Missile, Jump)"
+	outfits
+		"Brimstone Missile Launcher" 6
+		"AMT-15" 3
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-2 Drive"
+		"PZT-15 Engine"
+		
+ship "PMS-60" "PMS-60 (Heavy)"
+	outfits
+		"PMK-15" 6
+		"PaK-15 Turm" 3
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-1 Drive"
+		"PZT-15 Engine"
+
+ship "PMS-60" "PMS-60 (Heavy, Jump)"
+	outfits
+		"PMK-15" 6
+		"PaK-15 Turm" 3
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-2 Drive"
+		"PZT-15 Engine"
+		
+#PMS-100 King Tiger
+
+ship "PMS-100" "PMS-100 (Trapper)"
+	outfits
+		"Plundering Beam" 6
+		"PZ-G-30 Generator"
+		"PZ-G15 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-SC-15 Systems Core"
+		"PZ-1 Drive"
+		"PZT-30 Engine"
+		
+ship "PMS-100" "PMS-100 (Trapper, Jump)"
+	outfits
+		"Plundering Beam" 6
+		"PZ-G-30 Generator"
+		"PZ-G15 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-SC-15 Systems Core"
+		"PZ-2 Drive"
+		"PZT-30 Engine"
+		
+ship "PMS-100" "PMS-100 (Heavy)"
+	outfits
+		"PMK-15" 4
+		"FlSK-15" 2
+		"FlSK-20 Hull Slicer" 4
+		"Plundering Beam" 2
+		"PZ-G-30 Generator"
+		"PZ-G15 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-SC-15 Systems Core"
+		"PZ-1 Drive"
+		"PZT-30 Engine"
+	turret "FlSK-20 Hull Slicer"
+	turret "FlSK-20 Hull Slicer"
+	turret "FlSK-20 Hull Slicer"
+	turret "FlSK-20 Hull Slicer"
+	turret "Plundering Beam"
+	turret "Plundering Beam"
+	gun "FlSK-15"
+	gun "FlSK-15"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "PMK-15"
+	
+ship "PMS-100" "PMS-100 (Heavy, Jump)"
+	outfits
+		"PMK-15" 4
+		"FlSK-15" 2
+		"FlSK-20 Hull Slicer" 4
+		"Plundering Beam" 2
+		"PZ-G-30 Generator"
+		"PZ-G15 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-SC-15 Systems Core"
+		"PZ-2 Drive"
+		"PZT-30 Engine"
+	turret "FlSK-20 Hull Slicer"
+	turret "FlSK-20 Hull Slicer"
+	turret "FlSK-20 Hull Slicer"
+	turret "FlSK-20 Hull Slicer"
+	turret "Plundering Beam"
+	turret "Plundering Beam"
+	gun "FlSK-15"
+	gun "FlSK-15"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "PMK-15"
+	gun "PMK-15"

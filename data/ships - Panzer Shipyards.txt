@@ -1,0 +1,550 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "PMS-X555"
+	sprite "ship/pmsx555"
+	attributes
+		category "Heavy Warship"
+		licenses
+		"cost" 250000000
+		"shields" 110000
+		"hull" 90000
+		"required crew" 100
+		"bunks" 1000
+		"mass" 3000
+		"drag" 40
+		"heat dissipation" .4
+		"fuel capacity" 2000
+		"ramscoop" 75
+		"cargo space" 500
+		"outfit space" 2000
+		"weapon capacity" 1600
+		"engine capacity" 500
+		"energy capacity" 15000
+		"energy generation" 50
+		"hull repair rate" 10
+		"hull energy" 10
+		"shield generation" 20
+		"shield energy" 20
+		weapon
+			"blast radius" 2500
+			"shield damage" 25000
+			"hull damage" 12500
+			"hit force" 37500
+	outfits
+		"PaK-15 Turm" 12
+		"PMX-1000 Harkonnen I"
+		
+		"PZ-G-30 Generator" 3
+		
+		"PZ-2 Drive"
+		"PZT-30 Engine" 3
+			
+	engine 0 252.5
+	engine 18 246.5 .7
+	engine -18 246.5 .7
+	engine 32 240 .5
+	engine -32 240 .5
+	turret 29.5 -63.5
+	turret -29.5 -63.5
+	turret 29.5 -8
+	turret -29.5 -8
+	turret 29.5 47.5
+	turret -29.5 47.5
+	turret 0 89
+	turret 44 112.5
+	turret -44 112.5
+	turret 44 158
+	turret -44 158
+	turret 0 214.5
+	gun 0 -125
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "The PMS-X555 also known as Deus Ex Machina is Panzer Shipyard's Huge Advancement during the Dominion War. Made from materials used by making Quarg Warship and their Ringworld with a mix of the bone structure used on Dominion Ships."
+	description "The armament of this capital warship is the Mark II Harkonnen Cannon refitted to fire more rounds per minute instead of 1 shot per minute."
+	description "-Bought to you by the Panzer Shipyards, Hope You've come through with us."
+
+ship "PMS-10"
+	sprite "ship/pms10blitzen"
+	attributes
+		category "Light Warship"
+		cost 1500000
+		"shields" 8400 
+		"hull" 6500
+		"required crew" 5
+		"bunks" 10
+		"mass" 100
+		"drag" 4
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 280
+		"weapon capacity" 150
+		"engine capacity" 90
+		weapon
+			"blast radius" 165
+			"shield damage" 1650
+			"hull damage" 825
+			"hit force" 2475
+	engine 0 45
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	outfits
+		"Brimstone Missile Launcher" 4
+		"Brimstone Missile" 120
+		"PMK-15" 2		
+		"FlSK-15 Turm"
+		
+		"PZ-G-5 Generator"
+		"PZ-SC-5 Systems Core"
+		"PZ-R-15 Ramscoop"
+		
+		"PZT-15 Engine"
+		"PZ-1 Drive"
+	gun 32 -44 "PMK-15"
+	gun -32 -44 "PMK-15"
+	gun 44.5 0 "Brimstone Missile Launcher"
+	gun -44.5 0 "Brimstone Missile Launcher"
+	gun 54.5 0 "Brimstone Missile Launcher"
+	gun -54.5 0 "Brimstone Missile Launcher"
+	turret 0 0 "FlSK-15"
+	description "This is the Blitzen. A patrol ship, equipped with R.A.G.E stands for Reactive Armor General Equipment, which is a armoring system newly implemented for ships which seems to be successful."
+	description "A pack of this ships can bring chaos to any ship it will hunt."
+	
+ship "PMS-45"
+	sprite "ship/pms45panzer"
+	attributes
+		category "Medium Warship"
+		cost 8000000
+		"shields" 21200
+		"hull" 11600
+		"required crew" 75
+		"bunks" 100
+		"mass" 500
+		"drag" 8.5
+		"heat dissipation" .7
+		"fuel capacity" 800
+		"cargo space" 80
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 150
+		weapon
+			"blast radius" 350
+			"shield damage" 3500
+			"hull damage" 1750
+			"hit force" 5250
+	outfits
+		"FlSK-15 Turm" 6
+		
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-30 Systems Core"
+		
+		"PZ-1 Drive"
+		"PZT-15 Engine"
+	
+	engine -30 155
+	engine 0 155
+	engine 30 155
+	turret -23 -61.5
+	turret 23 -61.5
+	turret 23 -25
+	turret -23 -25
+	turret 30 100
+	turret -30 100
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "This is the first ship built by Panzer Shipyards when they got isolated from the human space. This mostly serves as cruiser of the PZ Shipyards."
+
+ship "PMS-60"
+	sprite "ship/pms60spanzer"
+	attributes
+		category "Medium Warship"
+		cost 15200000
+		"shields" 30600
+		"hull" 13400
+		"required crew" 75
+		"bunks" 100
+		"mass" 700
+		"drag" 10
+		"heat dissipation" .8
+		"fuel capacity" 800
+		"cargo space" 60
+		"outfit space" 600
+		"weapon capacity" 300
+		"engine capacity" 150
+		weapon
+			"blast radius" 450
+			"shield damage" 4500
+			"hull damage" 2250
+			"hit force" 6750
+	outfits
+		"PMK-15 Turm" 3
+		"FlSK-15" 4
+		"PMK-15" 2
+		
+		"PZ-G-30 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		
+		"PZ-1 Drive"
+		"PZT-15 Engine"
+	
+	engine 	0 152.5
+	engine 25 152.5
+	engine -25 152.5
+	drone 0 0
+	drone 0 0
+	drone 0 0
+	drone 0 0
+	turret 0 -88.5
+	turret 28 98.5
+	turret -28 98.5 
+	gun 25.5 -105
+	gun -25.5 -105
+	gun 33 -95
+	gun -33 -95
+	gun 41.5 -45
+	gun -41.5 -45
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "A Heavier and seems to be shorter version of the PMS-45 Panzer, armed with 6 gunports and equipped with drone bay to help the ship to confuse the enemy ship it targets. This seems to have the role of a battlecruiser."
+
+ship "PMS-X440 Horten"
+	sprite "ship/pmsx440horten"
+	attributes
+		category "Heavy Warship"
+		licenses
+		"cost" 139500000
+		"shields" 94000
+		"hull" 32000
+		"required crew" 250
+		"bunks" 400
+		"mass" 1500
+		"drag" 30
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"ramscoop" 10
+		"cargo space" 150
+		"outfit space" 1200
+		"weapon capacity" 600
+		"engine capacity" 200
+		"radar jamming" 200
+		weapon
+			"blast radius" 1260
+			"shield damage" 12600
+			"hull damage" 6300
+			"hit force" 18900
+	outfits
+		"FlSK-15 Turm" 4
+		"Brimstone Missile Launcher" 6
+		"PMK-15 Turm" 2
+		"Brimstone Missile1" 180
+			
+		"PZ-G-30 Generator" 2
+		"PZ-SC-45 Systems Core"
+		
+		"PZ-2 Drive"
+		"PZT-45 Engine"
+	gun -14.5 -151.5 "Brimstone Missile Launcher"
+	gun 14.5 -151.5 "Brimstone Missile Launcher"
+	gun -173.5 -107.5 "Brimstone Missile Launcher"
+	gun 173.5 -107.5 "Brimstone Missile Launcher"
+	gun 188.5 -107.5 "Brimstone Missile Launcher"
+	gun -188.5 -107.5 "Brimstone Missile Launcher"
+	fighter 130 -50.5
+	fighter -130 -50.5
+	fighter 83 -50.5
+	fighter -83 -50.5
+	turret 177 -43 "FlSK-15 Turm"
+	turret -177 -43 "FlSK-15 Turm"
+	turret 0 -30 "PMK-15 Turm"
+	turret 0 92 "PMK-15 Turm"
+	turret 84.5 54.5 "FlSK-15 Turm"
+	turret -84.5 54.5 "FlSK-15 Turm"
+	engine 57 137.5
+	engine -57 137.
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
+	explode "huge explosion" 10
+	description "The PMS-X440 Horten a revival of a old design made by the Horten Brothers a thousand year ago which provides the lowest radar detetion rate "
+	description "The PMS-X440 "Horten" is a Superheavy Warship designed for handling fleet of the pirates and as a defense to planetary systems Panzer Shipyards occupied."
+
+ship "PMS-100"
+	sprite "ship/pms100"
+	attributes
+		category "Heavy Warship"
+		cost 30000000
+		"shields" 44200
+		"hull" 25800
+		"required crew" 100
+		"bunks" 150
+		"mass" 700
+		"drag" 12
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 1150
+		"weapon capacity" 660
+		"engine capacity" 200
+		weapon
+			"blast radius" 750
+			"shield damage" 7500
+			"hull damage" 3750
+			"hit force" 11250
+	outfits
+		"PaK-15 Turm" 6
+		"PMK-15" 6
+		
+		"PZ-G-30 Generator"
+		"PZ-G-15 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-45 Systems Core"
+		"PZ-SC-15 Systems Core"
+		
+		"PZ-1 Drive"
+		"PZT-30 Engine"
+		"PZT-15 Engine"
+	
+	engine 34 202
+	engine -34 202
+	gun 49.5 -115.5
+	gun -49.5 -115.5
+	turret 25 -31.5
+	turret -25 -31.5
+	gun 66 -47
+	gun -66 -47
+	gun 58 -47
+	gun -58 -47
+	turret 25 19.5
+	turret -25 19.5
+	turret 63.5 69.5
+	turret -63.5 69.5
+	drone 75 93.5 under right 
+	drone -75 93.5 under left
+	drone 75 113.5 under right
+	drone -75 113.5 under left
+	drone 75 133.5 under right
+	drone -75 133.5 under left
+	drone 75 154.5 under right
+	drone -75 154.5 under left
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"+
+	description "The heaviest available warship of the Panzer Shipyards armed with the long range ordnance to target enemy ships from distance, while also armed with 6 gunports and a drone bays. This seems to have role of the Battleship Or a Carrier."
+
+ship "PMS-X105 Harkonnen I"
+	sprite "ship/pmsx100harkonnen"
+	attributes
+		category "Heavy Warship"
+		licenses
+		cost 90000000
+		"shields" 35000
+		"hull" 25000
+		"required crew" 150
+		"bunks" 300
+		"mass" 1000
+		"drag" 21
+		"heat dissipation" .4
+		"fuel capacity" 800
+		"cargo space" 200
+		"outfit space" 1450
+		"engine capacity" 100
+		"weapon capacity" 820
+		weapon
+			"blast radius" 1000
+			"shield damage" 10000
+			"hull damage" 5000
+			"hit force" 15000
+	outfits
+		"PMX-1000 Harkonnen I"
+		"PaK-15 Turm" 4
+		"PMK-15" 4
+		
+		"PZ-G-30 Generator" 3
+		"PR-R-15 Ramscoop" 2
+		"PZ-SC-45 Systems Core" 3
+		
+		"PZ-1 Drive"
+		"PZT-30 Engine"
+			
+	description "A Artillery Ship made by Panzer Shipyard to destroy Fleets"
+	description "The PMS-X100 Harkonnen I is a Ship stripped with devastating cannon in the galaxy. The Archon however took the issue of that cannon because it can crack a moon's crust."
+	engine 50 303
+	engine -50 303
+	engine 0 305
+	gun 0 -283 "PMX-1000 Harkonnen I"
+	gun 110 -56
+	gun -110 -56
+	gun 120 -41.5
+	gun -120 -41.5
+	turret -52.5 263
+	turret 52.5 263
+	turret -52.5 68
+	turret 52.5 68
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	
+ship "PZA-15"
+	sprite "ship/pza15"
+	attributes
+		category "Drone"
+		"cost" 500000
+		"automaton" 1
+		"shields" 3000
+		"hull" 2000
+		"mass" 25
+		"drag" 1
+		"heat dissipation" 1
+		"outfit space" 120
+		"weapon capacity" 40
+		"engine capacity" 30
+		"self destruct" .6
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 250
+			"hit force" 750
+	outfits
+		"PMK-15"
+		
+		"PZ-G-5 Generator"
+		
+		"PZT-5 Engine"
+		
+	engine 0 25.5
+	gun 0 -25.5
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	description "The PZA-15 is based on the captured alien drone that they got from the Remnants. Made with dense hull made to provide good protection."
+	
+ship "PMS-75"
+	sprite ship/pms75zerstorer
+	attributes
+		category "Medium Warship"
+		"cost" 4200000
+		"shields" 10000
+		"hull" 6200
+		"required crew" 21
+		"bunks" 30
+		"mass" 320
+		"drag" 8
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 500
+		"weapon capacity" 150
+		"engine capacity" 80
+		weapon
+			"blast radius" 175
+			"shield damage" 1750
+			"hull damage" 875
+			"hit force" 2625
+	outfits
+		"PMK-15" 4
+		"FlSK-15 Turm" 1
+		"AMT-15"
+		
+		"PZ-G-15 Generator"
+		
+		"PZ-1 Drive"
+		"PZT-15 Engine"
+	engine 17.5 130.5
+	engine -17.5 130.5
+	gun 27 -82
+	gun -27 -82
+	gun 9.5 -132
+	gun -9.5 -132
+	turret 0 -79
+	turret 0 11.5 "AMT-15"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The PMS-75 Zerstorer is a agile destroyer of the Panzer Shipyards used to be armed with particles cannon to destroy ships it met."
+	
+ship "PMS-125"
+	sprite "ship/pms125"
+	attributes
+		category "Heavy Warship"
+		"superweapon" -6
+		"cost" 40000000
+		"shields" 62700
+		"hull" 45300
+		"required crew" 200
+		"bunks" 500
+		"mass" 1000
+		"drag" 30
+		"heat dissipation" 0.6
+		"fuel capacity" 600
+		"outfit space" 1600
+		"cargo space" 240
+		"weapon capacity" 900
+		"engine capacity" 200
+		weapon
+			"blast radius" 1070
+			"shield damage" 10700
+			"hull damage" 5350
+			"hit force" 16050
+	outfits
+		"PMK-100" 6
+		"PaK-15 Turm" 6
+		
+		"PZ-G-30 Generator" 2
+		"PZ-G-15 Generator" 1
+		"PZ-SC-45 Systems Core" 2
+		"PZ-AR-15 Casulli" 500
+		
+		"PZ-1 Drive"
+		"PZT-30 Engine" 2
+	gun 79 18
+	gun -79 18
+	gun 88.5 18
+	gun -88.5 18
+	gun 97.5 17
+	gun -97.5 17
+	turret 0 -218.5
+	turret 0 -142.5
+	turret 0 -72.5
+	turret 46.5 209
+	turret -46.5 209
+	turret 0 270
+	engine 45 309.5
+	engine -45 309.5
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "The PMS-125 is the Capital ship of Panzer Shipyards for their higher ranking commanders."
+	description "The PMS-125 is armed with the heaviest particle cannons suited for long range and the long range cannons."

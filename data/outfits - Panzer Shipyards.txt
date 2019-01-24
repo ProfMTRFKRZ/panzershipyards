@@ -1,0 +1,253 @@
+#Outfits of the Panzer Shipyards
+
+outfit "Panzer Shipyards License"
+	plural "Licenses"
+	category "Special"
+	cost 10000000
+	thumbnail "outfit/license"
+	"landing permission" 1
+	description "Without the Panzer Shipyard's License you cannot access some experimental technology and access to restricted planets without this license."
+
+outfit "PZX150-Automaton Module"
+	plural "PZX150-Automaton Modules"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfits/pzx150automaton"
+	automaton 1
+	"mass" 10
+	"outfit space" -10
+	description `The PZX150 Automaton Module automates the ship it is intalled on.`
+	description  "The Panzer Shipyards Developed this Automation Module long ago, but it cannot work very well due to AI at it's time. Until they managed to capture a Korath Drone a decade ago. Now it works perfectly to help YOU! reduce your crew salaries."
+	
+outfit "PZ-G-5 Generator"
+	plural "PZ-G-5 Generators"
+	category "Power"
+	cost 2500000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"energy capacity" 1500
+	"energy generation" 15
+	"heat generation" 15
+	"cooling" 15
+	description "This Unique Generator Produce Cooling instead of heat waste."
+	description "The smallest generator developed by the Panzer Shipyards."
+
+	
+outfit "PZ-G-15 Generator"
+	plural "PZ-G-15 Generators"
+	category "Power"
+	cost 5000000
+	thumbnail "outfits/pz15generator"
+	"mass" 60
+	"outfit space" -60
+	"energy capacity" 3000
+	"energy generation" 20
+	"heat generation" 30
+	"cooling" 30
+	description "This Unique Generator Produce Cooling instead of heat waste."
+	description "The PZ-S-15 is a small generator but produce a lot of energy at the same time cools itself. The Panzer Shipyard acquired this technology through decade of researchs and messing with quantum physics
+	to produce the cooling effect."
+	
+outfit "PZ-G-30 Generator"
+	plural "PZ-G-30 Generators"
+	category "Power"
+	cost 10000000
+	thumbnail "outfits/pz30generator"
+	"mass" 120
+	"outfit space" -120
+	"energy capacity" 6000
+	"energy generation" 40
+	"heat generation" 45
+	"cooling" 60
+	description "Improved Version of the PZ-G-15 Generator."
+	description "This Version got a bit more weight and major improvements such as having a battery system to store energy"
+	
+
+outfit "PZ-R-15 Ramscoop"
+	plural "PZ-G-15 Ramscoops"
+	category "Systems"
+	cost 500000
+	thumbnail "outfits/pzramscoop"
+	"mass" 15
+	"outfit space" -15
+	"ramscoop" 7
+	description "Panzer Shipyard is sort of a mysterious company that research for new innovation of technology, as they developed this lightweight ramscoop that can even sustain smallest ship for longer travel or for saving space for other heavier equipments."
+
+	
+outfit "PZ-SC-5 Systems Core"
+	plural "PZ-SC-5 Systems Cores"
+	category "Systems"
+	cost 1450000
+	thumbnail "outfits/systemscore"
+	"mass" 15
+	"outfit space" -15
+	"shield generation" .7
+	"shield energy" .7
+	"shield heat" 5
+	"hull repair rate" 0.4
+	"hull energy" 0.3
+	"hull heat" 0.5
+	"energy capacity" 800
+	"cooling" 5
+	description "These systems core are combination of nanobots used to repair ship, regenerator to emit shields faster than human version, and a cooling system to remove excess heat of any ship."
+	description "This systems core seems to be inspired from the Korath Systems core which seem they do better."
+	
+outfit "PZ-SC-15 Systems Core"
+	plural "PZ-SC-15 Systems Cores"
+	category "Systems"
+	cost 1500000
+	thumbnail "outfits/systemscore"
+	"mass" 40
+	"outfit space" -40
+	"shield" 2500
+	"shield generation" 3.5
+	"shield energy" 4.9
+	"shield heat" 10
+	"hull repair rate" 0.8
+	"hull energy" 0.8
+	"hull heat" 0.8
+	"energy capacity" 1600
+	"cooling" 10
+	description "These systems core are combination of nanobots used to repair ship, regenerator to emit shields faster than human version, and a cooling system to remove excess heat of any ship."
+	description "This systems core seems to be inspired from the Korath Systems core which seem they do better."
+	
+outfit "PZ-SC-30 Systems Core"
+	plural "PZ-SC-30 Systems Cores"
+	category "Systems"
+	cost 3000000
+	thumbnail "outfits/systemscore"
+	"mass" 50
+	"outfit space" -50
+	"shield" 3000
+	"shield generation" 4.2
+	"shield energy" 6
+	"shield heat" 15
+	"hull repair rate" 1.2
+	"hull energy" 0.8
+	"hull heat" 1.2
+	"energy capacity" 2100
+	"cooling" 15
+	description "These systems core are combination of nanobots used to repair ship, regenerator to emit shields faster than human version, and a cooling system to remove excess heat of any ship."
+	description "This systems core seems to be inspired from the Korath Systems core which seem they do better."
+
+outfit "PZ-SC-45 Systems Core"
+	plural "PZ-SC-45 Systems Cores"
+	category "Systems"
+	cost 5000000
+	thumbnail "outfits/systemscore"
+	"mass" 75
+	"outfit space" -75
+	"shield" 5500
+	"shield generation" 5
+	"shield energy" 12
+	"shield heat" 20
+	"hull repair rate" 1.8
+	"hull energy" 0.8
+	"hull heat" 1.6
+	"energy capacity" 3500
+	"cooling" 20
+	description "These systems core are combination of nanobots used to repair ship, regenerator to emit shields faster than human version, and a cooling system to remove excess heat of any ship."
+	description "This systems core seems to be inspired from the Korath Systems core which seem they do better."
+
+outfit "PZ-15 Fuel Pod"
+	plural "PZ-FP-15 Fuel Pods"
+	category "Systems"
+	cost 150000
+	thumbnail "outfits/fuelpod"
+	"mass" 5
+	"outfit space" -5
+	"fuel capacity" 100
+	description "A Lightweight Fuel Pod made by Panzer Shipyard for outfit management"
+
+outfit "PZ-AR-15 Casulli"
+	plural "PZ-AR-15 Casullis"
+	category "Hand to Hand"
+	"cost" 10000
+	thumbnail "outfits/pzar15"
+	"capture attack" 2.5
+	"capture defense" 1.5
+	"unpluderable" 1
+	description "Assault rifle using depleted uranium rounds to pierce any kind of intruder whether armored or not."
+
+outfit "PZ-51 HE Grenade"
+	plural "PZ-51 HE Grenades"
+	category "Hand to Hand"
+	"cost" 25000
+	thumbnail "outfits/hegrenades"
+	"capture attack" 4
+	"capture defense" 1
+	"unpluderable" 1
+	description "These high explosive grenades are made by the Panzer Shipyards to destroy intruders"
+
+outfit "PZ-2 Drive"
+	category "Systems"
+	cost 2500000
+	thumbnail "outfits/pz2drive"
+	"mass" 40
+	"outfit space" -40
+	"quantum keystone" 1
+	"jump speed" .3
+	"jump fuel" 100
+	"scram drive" .2
+	"jump drive" 1
+	"hyperdrive" 1
+	description "A Unique Drive developed by the Panzer shipyard by combining Scram Drive and the acquired Jump Drive through decades of research and unlocked secrets of Jump Drive, they able to create this Drive where it can use both Hyper Drive and Jump Drive function into one"
+	description "The Jumping Process creates a artificial containment field with the help of Quantum Waystone that quantizised the ship's field into another location."
+	
+outfit "PZ-1 Drive"
+	category "Systems"
+	cost 150000
+	thumbnail "outfits/pz1drive"
+	"mass" 20
+	"outfit space" -20
+	"quantum keystone" 1
+	"jump fuel" 100
+	"scram drive" .2
+	"hyperdrive" 1
+	description "A Efficient Scram Drive is designed to use less fuel. Now comes with Quantum Keystone."
+	
+outfit "PZ-CO Scanner"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -5
+	"outfit scan power" 32
+	"outfit scan speed" 4
+	"cargo scan power" 8
+	"cargo scan speed" 4
+	"atmosphere scan" 100
+	description "This is Panzer Shipyards technology, a collection of scanners designed to scan outfits and cargos of ships and for using scanning newly discovered planet's atmosphere found by scout drones, you could connect it to your own ship's systems if you want."
+	
+#Common can be bought on human planets
+
+outfit "RT-11 Radiator"
+	category "Systems"
+	cost 70000
+	thumbnail "outfit/smallradiator"
+	"mass" 10
+	"outfit space" -10
+	"active cooling" 22
+	"cooling energy" 2.5
+	description "The Radiators have been the mainstay of mankind since the first flight into space. while the designs have sprung up new techniques its still used for one purpose. removing excess heat or to radiate the heat as part of life support systems to make the crew to be safe from hazard of cosmic vacuum."
+
+outfit "RT-22 Radiator"
+	category "Systems"
+	cost 140000
+	thumbnail "outfit/mediumradiator"
+	"mass" 25
+	"outfit space" -25
+	"active cooling" 44
+	"cooling energy" 5
+	description "The radiators have been proven to be efficient for making the ship cools down when it goes to overheat. meanwhile the radiators needs powering system to run those radiators to cool down ships."
+	
+outfit "RT-33 Radiator"
+	category "Systems"
+	cost 210000
+	thumbnail "outfit/largeradiator"
+	"mass" 35
+	"outfit space" -35
+	"active cooling" 66
+	"cooling energy" 7.5
+	description "These large radiators are mostly installed on warships or some ships wanted to cooled their ship at combat when needed."

@@ -1,0 +1,238 @@
+# Copyright (c) 2017 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+galaxy "Jebediah" #In Loving Memory of Jebediah Kerman
+	pos -10000 10500
+	sprite ui/helixnebula
+	
+system "Sol Laplace"
+	pos -10000 10500
+	link "Mairada"
+	government Panzer Shipyards
+	asteroids "small rock" 8 3
+	asteroids "medium rock" 11 2
+	asteroids "large rock" 1 1
+	asteroids "small metal" 2 4
+	asteroids "medium metal" 50 3
+	asteroids "large metal" 10 3
+	trade Clothing 250
+	trade Electronics 500
+	trade Equipment 400
+	trade Food 300
+	trade "Heavy Metals" 1500
+	trade Industrial 900
+	trade "Luxury Goods" 800
+	trade Medical 600
+	trade Metal 1000
+	trade Plastic 400
+	fleet "PMS Patrol" 2000
+	fleet "Small PMS Fleet" 600
+	fleet "PMS Fleet" 1200
+	habitable 700
+	belt 1245
+	object
+		sprite star/g5
+		period 10
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 20
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 40
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 120
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 140
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 160
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 180
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 220
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 240
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 260
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 280
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 300
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 320
+	object "Lagrange Point"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 340
+	
+	object "Wormhole Epsilon"
+		sprite planet/wormhole
+		distance 6000
+		period 3000
+		
+system "Mairada"
+	pos -10050 10525
+	habitable 1500
+	link "Sol Laplace"
+	government Panzer Shipyards
+	asteroids "small rock" 8 3
+	asteroids "medium rock" 11 2
+	asteroids "large rock" 1 1
+	asteroids "small metal" 2 4
+	asteroids "medium metal" 50 3
+	asteroids "large metal" 10 3
+	minables silicon 15 5
+	trade Clothing 250
+	trade Electronics 500
+	trade Equipment 400
+	trade Food 300
+	trade "Heavy Metals" 1500
+	trade Industrial 900
+	trade "Luxury Goods" 800
+	trade Medical 600
+	trade Metal 1000
+	trade Plastic 400
+	fleet "Dominion Raid" 2000
+	fleet "Small PMS Fleet" 800
+	fleet "PMS Fleet 1000"
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/desert0-b
+		distance 300
+		period 70
+	object
+		sprite planet/venus
+		distance 500
+		period 130
+	object "Makodaa"
+		sprite planet/jupiter
+		distance 1600
+		period 300
+		object
+			sprite planet/rock17
+			distance 300
+			period 30
+		object
+			sprite planet/tethys
+			distance 400
+			period 50
+		object "Maraida Refinery"
+			sprite planet/station2
+			distance 500
+			period 60
+	object
+		sprite planet/water1-b
+		distance 2000
+		period 360
+	object
+		sprite planet/io-b
+		distance 3000
+		period 500
+		
+system "Warroad"
+	pos -10010 10550
+	habitable 600
+	government Dominion
+	asteroids "small rock" 8 3
+	asteroids "medium rock" 11 2
+	asteroids "large rock" 1 1
+	asteroids "small metal" 2 4
+	asteroids "medium metal" 50 3
+	asteroids "large metal" 10 3
+	trade Clothing 250
+	trade Electronics 500
+	trade Equipment 400
+	trade Food 500
+	trade "Heavy Metals" 900
+	trade Industrial 900
+	trade "Luxury Goods" 1500
+	trade Medical 600
+	trade Metal 1000
+	trade Plastic 400
+	fleet "Dominion Small" 400
+	object
+		sprite star/g0
+		period 10
+	object "Gehenna"
+		sprite planet/lava1-b
+		distance 200
+		period 100
+	object
+		sprite planet/mars-b
+		distance 600
+		period 150
+	object
+		sprite planet/gas17-b
+		distance 1200
+		period 453
+	object
+		sprite planet/gas6
+		distance 2000
+		period 543

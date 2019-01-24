@@ -1,0 +1,271 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Some Ships that modified by the Panzer Shipyards
+
+ship "Starbird"
+	sprite "ship/starbird"
+	attributes
+		category "Medium Warship"
+		"cost" 4140000
+		"shields" 9300
+		"hull" 5700
+		"required crew" 7
+		"bunks" 22
+		"mass" 290
+		"drag" 4.5
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 400
+		"weapon capacity" 160
+		"engine capacity" 100
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"FlSK-15" 4
+		"FlSK-15 Turm" 2
+		"AMT-15"
+		
+		"PZ-G-15 Generator"
+		
+		"PZT-30 Engine"
+		
+	engine -24 65
+	engine 24 65
+	gun -20.5 -27 "PMK-15"
+	gun 20.5 -27 "PMK-15"
+	gun -28.5 -18.5 "FlSK-15"
+	gun 28.5 -18.5 "FlSK-15"
+	turret -5 2.5 "FlSK-15 Turm"
+	turret 5 2.5 "FlSK-15 Turm"
+	turret 0 -38.5 "AMT-15" 
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "This is a Betelgeuse Shipyard's Firebird Replica. While having appearance of the Original Firebird. This version however is far stronger than Firebird. Armed with weapons made by Panzer Shipyard. The Starbird can pack a punch to enemy is faces"
+
+ship "Vindicator"
+	sprite "ship/vindicator"
+	attributes
+		category "Heavy Warship"
+		"cost" 7200000
+		"shields" 15600
+		"hull" 9400
+		"required crew" 25
+		"bunks" 50
+		"mass" 500
+		"drag" 8
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 60
+		"outfit space" 600
+		"weapon capacity" 280
+		"engine capacity" 120
+		weapon
+			"blast radius" 160
+			"shield damage" 2000
+			"hull damage" 960
+			"hit force" 2400
+	outfits
+		"PMK-15" 9
+		"AMT-15"
+		
+		"PZ-G-15 Generator"
+		"PZ-SC-15 Systems Core"
+		
+		"PZT-15 Engine"
+		"PZ-1 Drive"
+		
+	engine 16 134.5
+	engine -16 134.5
+	gun 0 -137.5
+	gun 12 -129
+	gun -12 -129
+	gun 25 -113
+	gun -25 -113
+	gun 22.5 -55
+	gun -22.5 -55
+	gun 26.5 -46
+	gun -26.5 -46
+	turret 0 30.5
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The Vindicator is a heavy warship which based from Syndicate's Shipyard Vanguard."
+	description "The Vindicator is armed 9 gunports to add extra firepower."
+	
+ship "Hoarder"
+	sprite "ship/hoarder"
+	attributes
+		"category" "Heavy Warship"
+		"cost" 10570000
+		"shields" 33800
+		"hull" 11200
+		"fuel capacity" 600
+		"required crew" 180
+		"bunks" 200
+		"mass" 720
+		"drag" 12
+		"heat dissipation" .5
+		"cargo space" 200	#+25
+		"outfit space" 800 #+79
+		"weapon capacity" 300 #+16
+		"engine capacity" 160 #+1
+		weapon
+			"blast radius" 250
+			"shield damage" 3600
+			"hull damage" 1800
+			"hit force" 5400
+	outfits
+		"Plundering Beam" 4
+
+		
+		"PZ-G-15 Generator"
+		"PZ-R-15 Ramscoop"
+		
+		"PZ-SC-30 Systems Core"
+		"PZ-AR-15 Casulli" 145
+		
+		"PZ-2 Drive"
+		"PZT-30 Engine"
+		"PZT-5 Engine"
+		
+	turret 10.5 -136.5
+	turret -10.5 -136.5
+	turret 35 -133
+	turret -35 -133
+	turret 17 -99
+	turret -17 -99
+	drone 0 0 under left
+	drone 0 0 under right
+	fighter 0 0
+	fighter 0 0
+	engine 20 113.5
+	engine -20 113.5
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Hoarder is nothing but a Ship in the shape of Korath Raider."
+	description "While not being exclusive to Public some Hoarders is used by Bounty Hunters and Koraths themselves in exchange of reasonable credits."
+	description "The weaponry of the Hoarder is a 6 Plundering Beams, a combination of Ion, Detaining, and Disruption damage made the Hoarder best for plundering or capturing ships."
+
+ship "Nightingale"
+	sprite "ship/nightingale"
+	attributes
+		"category" "Heavy Warship"
+		"cost" 10600000
+		"shields" 20100
+		"hull" 8900
+		"required crew" 43
+		"bunks" 64
+		"mass" 500
+		"drag" 8
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 120
+		"outfit space" 660
+		"weapon capacity" 260
+		"engine capacity" 120
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"PMK-15" 4
+		"FlSK-15 Turm" 5
+		
+		"PZ-G-15 Generator"
+		"PZ-SC-15 Systems Core"
+		
+		"PZ-1 Drive"
+		"PZT-30 Engine"
+	engine 24.5 114
+	engine -24.5 114
+	gun 41 -33
+	gun -41 -33
+	gun 49 -21
+	gun -49 -21
+	turret 36.5 48
+	turret -36.5 48
+	turret 15 41.5
+	turret -15 41.5
+	turret 0 82.5
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "The Leviathan is well known warship in human space as it served the Alpha Wars centuries ago and witnessing countless battle from pirates to merchants side."
+	description "The Nightingale is one of the Panzer Shipyard's Common Product Series armed with Panzer Shipyard's weaponry and equipment, this made Panzer Shipyard's Product to be reliable and best in the Human Space."
+
+ship "Peregrine Falcon"
+	sprite "ship/peregrine"
+	attributes
+		category "Heavy Warship"
+		"cost" 10900000
+		"shields" 18800
+		"hull" 7400
+		"required crew" 52
+		"bunks" 75
+		"drag" 5
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"cargo space" 80
+		"outfit space" 620
+		"weapon capacity" 300
+		"engine capacity" 180
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Brimstone Missile Launcher" 4
+		"FlSK-15 Turm" 7
+		
+		"PZ-G-30 Generator"
+		"PZ-SC-30 Systems Core"
+		
+		"PZ-1 Drive"
+		"PZT-45 Engine"
+	engine 0 180
+	engine 23 170 .7
+	engine -23 170 .7
+	gun 18 -107.5
+	gun -18 -107.5
+	gun 24 -80.5
+	gun -24 -80.5 
+	turret 14 -54
+	turret -14 -54
+	turret 0 -17.5
+	turret 64.5 10
+	turret -64.5 10
+	turret 28 120.5
+	turret -28 120.5
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion medium"
+	description "The Tarazed Falcon is known for being lean, mean warship to Captains or Pirates. this one is not the exception."
+	description "The Peregrine Falcon is Panzer Shipyard's version Falcon based on a captured Marauder Falcons that raiding the system. Using the PZT Class Engines this Falcon is probably the fastest heavy warship you pilot."
+	

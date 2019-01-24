@@ -1,0 +1,479 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Note: this file contains outfits and ships that are no longer used in the plugin, but that
+# must be maintained in case anyone installed one of them while they were available.
+
+outfit "FlSK-15"
+	category "Guns"
+	cost 350000
+	thumbnail "outfits/refirelance"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/fire-lance"
+			"frame rate" 1
+		sound "fire-lance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" .4
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 2.5
+		"firing heat" 1
+		"shield damage" 5
+		"hull damage" 4.4
+		"heat damage" 12
+	description "This beam weapon is a lightweight version and better version of the Korath Fire-Lance designed to be used in any class of ships."
+
+outfit "FlSK-15 Turm"
+	category "Turrets"
+	cost 750000
+	thumbnail "outfits/refirelanceturret"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sprite "projectile/fire-lance"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/refirelanceturrettop"
+		"hardpoint offset" 0
+		sound "fire-lance"
+		"hit effect" "fire-lance impact"
+		"inaccuracy" .4
+		"turret turn" 3
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3
+		"firing heat" 1
+		"shield damage" 5
+		"hull damage" 4.4
+		"heat damage" 12
+	description "A turret version of the FlSK-15."
+	
+outfit "FlSK-60 Hull Slicer"
+	category "Turrets"
+	cost 750000
+	thumbnail "outfits/hullslicerturret"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		sprite "projectile/slicer"
+			"frame rate" 6
+		"hardpoint sprite" "hardpoint/hullslicer"
+		"hardpoint offset" 0
+		sound "slicer"
+		"hit effect" "slicer impact"
+		"inaccuracy" .4
+		"turret turn" 3
+		"velocity" 520
+		"lifetime" 1
+		"reload" 1.50
+		"burst reload" 1
+		"burst count" 20
+		"firing energy" 5.6
+		"firing heat" 20
+		"shield damage" 3
+		"hull damage" 20
+	description "This Hull Slicer is accidentally made by Panzer Shipyards when nullifying the shield damage of FlSK-30, but due to that the weapon is heavier than Korath Slicer or the FlSK-30."
+
+outfit "Flammenwerfer Turm"
+	category "Turrets"
+	cost 300000
+	thumbnail "outfits/flameturret"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sprite "effect/explosion/small"
+			"frame rate" 60
+		"no repeat"
+		"hardpoint sprite" "hardpoint/flammenturm"
+		"hardpoint offset" 0
+		sound "flamethrower"
+		"submunition" "Flammenwerfer Projectile"
+		"inaccuracy" 12
+		"turret turn" 3
+		"velocity" 12
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 8
+		"firing heat" 22
+		"hull damage" 2
+		description "This Flamethrower become more terrifying by attaching it to a turret mount, which makes it threat to enemy ships."
+
+outfit "Flammenwerfer"
+	category "Guns"
+	cost 200000
+	thumbnail "outfits/flammenwerfer"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "effect/explosion/small"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		"submunition" "Flammenwerfer Projectile"
+		"inaccuracy" 12
+		"velocity" 12
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 8
+		"firing heat" 22
+		"hull damage" 2
+	description "This Flamethrower is made to be more aggressive to deal more hull damage, heat damage, while having no shield damage, having a built a built-in fuel pod to sustain itself while saving the hyperspace fuel."
+
+outfit "Flammenwerfer Projectile"
+	weapon
+		sprite "projectile/flamethrower"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "flamethrower hit"
+		"die effect" "flamethrower die"
+		"inaccuracy" 15
+		"lifetime" 22
+		"shield damage" 8
+		"hull damage" 2
+		"heat damage" 1000
+
+outfit "PMK-15"
+	category "Guns"
+	cost 300000
+	thumbnail "outfits/pmk15gun"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .3
+		"velocity" 40
+		"lifetime" 30
+		"cluster"
+		"reload" 10
+		"firing energy" 25
+		"firing force" 5
+		"firing heat" 20
+		"shield damage" 92
+		"hull damage" 76
+	description "This particle cannon is smaller version of particle cannon you see in human space. this one however makes it to be installable on small ship to make it menacing in combat"
+
+outfit "PMK-15 Turm"
+	category "Turrets"
+	cost 300000
+	thumbnail "outfits/pmk15turret"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	weapon
+		sprite "projectile/particle beam"
+		"hardpoint sprite" "hardpoint/pmk15hardpoint2"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .3
+		"turret turn" 3.5
+		"velocity" 40
+		"lifetime" 30
+		"cluster"
+		"reload" 15
+		"firing energy" 25
+		"firing force" 5
+		"firing heat" 10
+		"shield damage" 92
+		"hull damage" 76
+	description "The PMK-15 has been proven effective against anykind of ship, by giving the cannon a turret platform, this weapon becomes more menacing."
+
+outfit "Brimstone Missile Launcher"
+	category "Guns"
+	cost 60000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 4
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"brimstone capacity" 30
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Brimstone Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 4
+		"velocity" 11
+		"lifetime" 600
+		"reload" 30
+		"firing energy" 1
+		"firing heat" 15
+		"acceleration" 2
+		"drag" .1
+		"turn" 4
+		"homing" 4
+		"radar tracking" .9
+		"shield damage" 200
+		"hull damage" 140
+		"hit force" 25
+		"missile strength" 15
+	description "A Modified Sidewinder Missile Launcher use to launcher a more violent and more potent version of the Sidewinder Missile."
+
+outfit "Brimstone Missile"
+	category "Ammunition"
+	cost 1000
+	thumbnail "outfit/sidewinder"
+	"brimstone capacity" -1
+	description "The Brimstone Missile is ammunition for the Brimstone Missile Launcher; each launcher that you have installed can be armed with up to 40 of them. You cannot install a missile without a launcher to fire it from."
+
+outfit "PaK-15 Turm"
+	category "Turrets"
+	cost 750000
+	thumbnail "outfits/pak15turm"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/turbo blaster"
+		"hardpoint sprite" "hardpoint/pak15turm"
+		"hardpoint offset"
+		sound "explosion medium"
+		"hit effect" "turboblaster impact"
+		"inaccuracy" 1
+		"turret turn" 4
+		"velocity" 15
+		"lifetime" 140
+		"reload" 120
+		"firing energy" 50
+		"firing heat" 150
+		"hit force" 40
+		"shield damage" 400
+		"hull damage" 300
+	description "The PaK-15 Turret is weapon employed on heavy warships of the Panzer Shipyards."
+	description "PaK-15's projectile is a energy projectile of blasting the hull of enemy ships at distance."
+
+outfit "PMX-1000 Harkonnen I"
+	category "Guns"
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 600
+	"unplunderable"
+	"outfit space" -600
+	"weapon capacity" -600
+	"gun ports" -1
+	"required crew" 50
+	weapon
+		"inaccuracy" 0
+		"velocity" 20
+		"lifetime" 1
+		"submunition" "Harkonnen Fragment" 1
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"hit effect" "nuke explosion"
+		"safe"
+		"reload" 3600
+		"firing energy" 10610
+		"firing heat" 10870
+		"blast radius" 750
+		"hit force" 1000
+	description "Panzer Shipyard's Anti Fleet Weapon."
+
+outfit "Harkonnen Fragment"
+	weapon
+		sprite "projectile/rail slug"
+			"no repeat"
+			"frame rate" .25
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"safe"
+		"inaccuracy" 1
+		"lifetime" 499
+		"hit force" 1000
+		"shield damage" 500000
+		"hull damage" 556100
+		"blast radius" 750
+		
+outfit "Plundering Beam"
+	category "Turrets"
+	cost 500000
+	thumbnail "outfits/plunderingbeam"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	description "This Weapon is Combination of Ion, Shield Disruption, Detaining Technology for one Purpose, Disabling any ships it met."
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/plunderingbeam"
+		"hardpoint offset"
+		sound "disruptor"
+		"hit effect" "ionic impact"
+		"inaccuracy" .4
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 5
+		"firing heat" 2.6
+		"shield damage" 6
+		"hull damage" 2
+		"disruption damage" 0.4
+		"slowing damage" 0.4
+		"ion damage" 0.4
+
+effect "ionic impact"
+	sprite "effect/skylance impact"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 10
+	"random angle" 180
+	"velocity scale" 0.
+
+outfit "Ionizer"
+	category "Guns"
+	cost 300000
+	thumbnail "outfits/ionizer"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "effect/ionexplosion/ionsmall"
+			"frame rate" 60
+			"no repeat"
+		sound "ionic afterburner"
+		"submunition" "Ionization"
+		"inaccuracy" 12
+		"velocity" 12
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 22
+		"hull damage" 2
+	description "TBA"
+	
+outfit "Ionization"
+	weapon
+		sprite "projectile/ionflamethrower"
+			"frame rate" 17
+			"random start frame"
+		"hit effect" "ionflamethrower hit"
+		"die effect" "ionflamethrower die"
+		"inaccuracy" 15
+		"lifetime" 22
+		"shield damage" 8
+		"hull damage" 2
+		"heat damage" 300
+		"ion damage" 0.5
+		
+outfit "AMT-15"
+	category "Turrets"
+	cost 250000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		"hit effect" "large anti-missile"
+		"anti-missile" 30
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 7
+		"firing heat" 5
+		
+outfit "PMK-100"
+	category "Guns"
+	cost 1000000
+	thumbnail "outfits/pmk15gun"
+	"mass" 100
+	"outfit space" -100
+	"weapon capacity" -100
+	"gun ports" -1
+	"superweapon" 1
+	description "TBA"
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .1
+		"velocity" 25
+		"lifetime" 50
+		"reload" 30
+		"firing energy" 50
+		"firing heat" 25
+		"shield damage" 500
+		"hull damage" 420
+
+outfit "EMP Missile Launcher"
+	category "Secondary Weapons"
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"EMP Capacity" 8
+	description "TBA"
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		sound "nuke"
+		ammo "EMP Missile"
+		stream
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "emnuke residue fast" 10
+		"hit effect" "emnuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"velocity" 6
+		"lifetime" 800
+		"reload" 400
+		"firing energy" 10
+		"firing heat" 400
+		"acceleration" .8
+		"drag" .1
+		"turn" 4
+		"homing" 4
+		"radar tracking" .5
+		"optical tracking" 1
+		"trigger radius" 30
+		"blast radius" 150
+		"shield damage" 15000
+		"hull damage" 1000
+		"ion damage" 600
+		"hit force" 2000
+		"missile strength" 200
+
+outfit "EMP Missile"
+	category "Ammunition"
+	cost 1000000
+	thumbnail "outfit/nuke"
+	"mass" 10
+	"EMP Capacity" -1
+	description "EM Missile are Ammunition for EMP Launcher. You cannot install one unless you have first installed a launcher to fire it from. Each launcher can hold up to 8 EM Missile"

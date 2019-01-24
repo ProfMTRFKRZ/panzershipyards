@@ -1,0 +1,63 @@
+# Copyright (c) 2017 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfitter "Panzer Shipyard Basic"
+	"PZ-1 Drive"
+	"PZ-G-5 Generator"
+	"PZ-SC-5 Systems Core"
+	"PZ-15 Fuel Pod"
+	"PZ-AR-15 Casulli"
+	"PZ-51 HE Grenade"
+outfitter "Panzer Weaponry Basic"
+	"FlSK-15"
+	"FlSK-15 Turm"
+	"Flammenwerfer"
+	"Flammenwerfer Turm"
+	"PaK-15 Turm"
+	"Brimstone Missile Launcher"
+	"Brimstone Missile"
+	"AMT-15"
+outfitter "Panzer Weaponry Advanced"
+	"FlSK-60 Hull Slicer"
+	"Plundering Beam"
+	"PMK-15 Turm"
+	"PMK-15"
+	"Ionizer"
+	"AMT-15"
+	"EMP Missile Launcher"
+	"EMP Missile"
+outfitter "Panzer Shipyard Advance"
+	"PZ-G-15 Generator"
+	"PZ-G-30 Generator"
+	"PZ-SC-15 Systems Core"
+	"PZ-SC-30 Systems Core"
+	"PZ-SC-45 Systems Core"
+	"PZX150-Automaton Module"
+	"PZ-15 Fuel Pod"
+	"PZ-R-15 Ramscoop"
+	"PZ-2 Drive"
+	
+outfitter "Panzer Shipyard Engines Basic"
+	"PZT-5 Engine"
+	"PZT-15 Engine"
+	"PZT-30 Engine"
+	"Tachyonic Afterburner"
+	PZT-45 Engine
+	PZT-60 Engine
+	
+outfitter "Wunderwaffe"
+	"PMT-100"
+	"PMX-1000 Harkonnen I"	
+
+outfitter "Panzer Upgrades"
+	"PMS Outfit Expansion"
+
+outfitter "Panzer Shipyard License"
+	"Panzer Shipyards License"

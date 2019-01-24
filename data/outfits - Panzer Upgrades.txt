@@ -1,0 +1,92 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Will Be Available when finish the mission about the upgrades.
+#Upgrades By Panzer Shipyard
+#Plan to add all upgrade limit to all ingame. (Including Mods)
+
+outfit "PMS Outfit Expansion"
+	plural "PMS Outfit Expansions"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"upgrade limit" -1
+	"mass" 20
+	"outfit space" 60
+	"cargo space" -100
+	unplunderable 1
+	description "If you have enough cargo space you can swap it to 100 outfit space in exchange of 120 cargo space."
+	description "Being made by Panzer Shipyards. The problem from the standard outfit expansions is fixed."
+
+outfit "PMS Warship Upgrade"
+	plural "PMS Warship Upgrades"
+	category "Systems"
+	cost 4500000
+	thumbnail "outfit/unknown"
+	"upgrade limit" -1
+	"mass" 200
+	"hull" 2000
+	"shields" 3000
+	"cargo space" -500
+	description "This upgrade gives a massive upgrade to ship to become a warship class vessel. at the cost of 250 cargo space, heat management, cooling inefficiency."
+	
+##Common Upgrades To Sell.
+
+outfit "Carbon Fiber"
+	plural "Carbon Fibers"
+	category "Systems"
+	cost 20000
+	thumbnail "outfit/unknown"
+	"upgrade limit" -1
+	"mass" 10
+	"outfit space" -10
+	"hull" 200
+	description "Adding Carbon Fiber Composites to your ship gives you a decent increase to your armor without draining your coffers or using up enormous amount of your outfit spaces"
+	
+outfit "Matrix Steel"
+	plural "Matrix Steels"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/unknown"
+	"upgrade limit" -1
+	"mass" 50
+	"cargo space" -50
+	"hull" 1200
+	"shields" -1200
+	description "These chunks of heavy steel will add excellent protection at the cost of your shielding systems"
+	
+outfit "Shield Projector"
+	plural "Shield Projectors"
+	category "Systems"
+	cost 200000
+	thumbnail "outfit/unknown"
+	"upgrade limit" -1
+	"mass" 50
+	"cargo space" -50
+	"shields" 1500
+	"cooling inefficiency" 1
+	"heat dissipation" -.01
+	"unplunderable"
+	description "These shield projectors will forcefully emit the shield matrix of your ship, by that expect your ship to be little bit hot."
+
+outfit "Standard Upgrade I"
+	plural "Upgrades I"
+	category "Systems"
+	cost 2000000
+	thumbnail "outfit/unknown"
+	"upgrade limit" -1
+	"mass" 100
+	"cooling" 25
+	"bunks" 10
+	"outfit space" 50
+	"shields" 1500
+	"hull" 1000
+	"cargo space" -150
+	description "This upgrade procedure will provide additional protections and minimal upgrades to your ship."

@@ -1,0 +1,93 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Light Warship
+
+ship "Quietus"
+	sprite "ship/dominionquietus"
+	attributes
+		category "Light Warship"
+		"cost" 50000000
+		"shields" 100000
+		"hull" 80000
+		"required crew" 50
+		"bunks" 60
+		"mass" 200
+		"drag" 3
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"ramscoop" 20
+		"cargo space" 20
+		"outfit space" 500
+		"engine capacity" 95
+		"weapon capacity" 210
+		"energy capacity" 5000
+		"energy generation" 20
+		"hull repair rate" 5
+		"hull energy" 5
+		"shield generation" 5
+		"shield energy" 15
+		weapon
+			"blast radius" 2500
+			"shield damage" 25000
+			"hull damage" 12500
+			"hit force" 37500
+	outfits
+		"Ion Rain Gun" 2
+		"Seeker Nest" 2
+		"Detainer Organ" 
+		"Point Defense Turret" 1
+		
+		"Large Heat Shunt" 4
+		"Jump Drive"
+		
+		"Triple Plasma Core"
+		"Steering (Planetary Class)"
+		"Thruster (Lunar Class)"
+	gun 0 -110 "Detainer Organ"
+	gun 13.5 -47.5 "Ion Rain Gun"
+	gun -13.5 -47.5 "Ion Rain Gun"
+	gun 22.5 -24.5 "Seeker Nest"
+	gun -22.5 -24.5 "Seeker Nest"
+	turret 0 26.5 "Point Defense Turret"
+	turret 0 59
+	engine 15 83
+	engine -15 83
+	explode "tiny explosion" 20
+	explode "small explosion" 35
+	explode "medium explosion" 20
+	explode "large explosion" 5
+	"final explode" "final explosion medium"
+	description "This Dominion ship serves as light warship of the Dominion Empire that is armed like a heavy warship."
+	description "This ship is made where they are grow up on a bone like structure where bionutrients is poured to the hull structure itself. this is the result of that Bioengineering."
+	description "As you look to the ship. It reminded you of Remnant Ship because of the biomechanical hull plating."
+	
+ship "Demise"
+	sprite "ship/demise"
+	attributes
+		category "Medium Warship"
+		"shields" 150000
+		"hull" 150000
+		"required crew" 128
+		"bunks" 130
+		"mass" 500
+		"drag" 5
+		"heat dissipation" .7
+		"fuel capacity" 600
+		"ramscoop" 20
+		"outfit space" 600
+		"weapon capacity" 300
+		"engine capacity" 120
+		"energy capacity" 8000
+		"energy generation" 20
+		"hull repair rate" 8
+		"hull energy" 15
+		"shield generation" 8
+		"shield energy" 15

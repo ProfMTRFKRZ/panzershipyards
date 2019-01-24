@@ -1,0 +1,150 @@
+# Copyright (c) 2017 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Planets Used By Panzer Shipyards
+
+planet "Station Reichstag"
+	attributes pz pzmilitary
+	landscape land/space1
+	music ambient/machinery
+	description `TBA`
+	spaceport `TBA`
+	shipyard "Automatons"
+	shipyard "Panzer Shipyards Basic"
+	outfitter "Panzer Shipyard Basic"
+	outfitter "Panzer Shipyard Advance"
+	outfitter "Panzer Shipyard Engines Basic"
+	outfitter "Panzer Weaponry Advanced"
+	outfitter "Panzer Upgrades"
+	outfitter "Panzer Shipyard License"
+	security 0
+	government "Panzer Shipyards"
+	tribute 1000000
+		threshold 10
+		fleet "Reichstag Defense" 1
+		
+	
+planet "Station Eins"
+	attributes pz station pzrefinery
+	landscape land/station1
+	music ambient/machinery
+	description `TBA`
+	spaceport `TBA`
+	shipyard "PzS Common Products"
+	outfitter "Panzer Shipyard Basic"
+	outfitter "Panzer Weaponry Basic"
+	security 0
+	government "Panzer Shipyards"
+	
+planet "Hamburg"
+		attributes pz "requires:landing permission"
+		landscape land/nasa6
+		outfitter "Wunderwaffe"
+		shipyard "Wunderwaffe"
+		description "This Planet is Governed by Panzer Shipyards and Used to Experiment Any New Technologies also serves as Mining Planet For Panzer Shipyards"
+		spaceport "TBA"
+		security 0
+		government "Panzer Shipyards"
+
+#Planets Exclusive To Sol Ednum (Damn I would Change it Later)
+
+planet "Natura"
+	attributes pz pzcolony
+	landscape land/mfield4
+	description `TBA`
+	spaceport `TBA`
+	shipyard pzs common
+	outfitter pzs common
+	security 0
+	government "Panzer Shipyards"
+	
+planet "Mjolnir"
+	attributes pz pzrefinery station
+	landscape land/station2
+	description "TBA"
+	spaceport "TBA"
+	shipyard
+	outfitter
+	security 0
+	government "Panzer Shipyards"
+	
+planet "Mortuus"
+	attributes pz pzmilitary station
+	landscape land/space2
+	description "TBA"
+	spaceport "TBA"
+	security 0
+	government "Panzer Shipyards"
+	
+#Sol Skratta Planets
+	
+planet "Milo"
+	attributes pz pzcolony
+	landscape land/city5
+	description "TBA"
+	spaceport "TBA"
+	security 0
+	government "Panzer Shipyards"
+	
+planet "Moon Of Milo"
+	attributes pz pzrefinery
+	landscape land/earthrise
+	description "TBA"
+	spaceport "TBA"
+	security 0
+	government "Panzer Shipyards"
+
+planet "Laplace"
+	attributes pzmilitary pz
+	landscape land/space3
+	description "TBA"
+	spaceport "TBA"
+	security 0
+	government "Panzer Shipyards"
+
+planet "Wormhole Epsilon"
+
+#Sol Laplace Ringworld
+
+planet "Lagrange Point"
+	attributes pz pzcolony pzmilitary
+	landscape land/ringworldr
+	description "TBA"
+	spaceport "TBA"
+	shipyard "allcontentship"
+	security 0
+	government "Panzer Shipyards"
+	
+#Mairada Planets
+
+planet Makodaa
+	attributes pz pzcolony pztourism
+	landscape land/gas1j
+	description "This gas giant is home to the largest sky city settlements in this galaxy made by Panzer Shipyard to be used as refinery and colony for workers."
+	description "This is also home to gigantic jellyfish like lifeforms that rise above using graviton particles generated to it's body. these creatures feeds through bacteria with chlorophyll like, which produce energy for bacteria which feed by the Makodaa jellyfish."
+	spaceport "You Land on one of the sky city. you see some people in workers uniform going to bar for their break. while some are just merchants that refuels or buying some items, on the other hand. You see aircrafts that lands and takeoff where some Tourist is getting loaded and unloaded to see the Makodaa's Jellyfish."
+	security 0
+	government "Panzer Shipyards"
+	
+planet "Maraida Refinery"
+	attributes pz pzrefinery station
+	landscape land/sivael0
+	description "TBA"
+	spaceport "TBA"
+	security 0
+	government "Panzer Shipyards"
+	
+planet "Gehenna"
+	attributes dominion
+	landscape land/lava2
+	description "TBA"
+	spaceport "TBA"
+	security 0
+	government "Dominion"

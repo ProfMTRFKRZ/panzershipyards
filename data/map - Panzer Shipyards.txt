@@ -1,0 +1,169 @@
+# Copyright (c) 2017 by various
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Systems Used by the Panzer Shipyards.
+
+system "Reich"
+	pos -795 75
+	habitable 1200
+	link "Sol Ednum"
+	link "Sol Skratta"
+	government Panzer Shipyards
+	minables lead 11 6.87213
+	minables iron 5 6.67641
+	minables silicon 30 6.41819
+	trade Clothing 250
+	trade Electronics 500
+	trade Equipment 400
+	trade Food 300
+	trade "Heavy Metals" 1500
+	trade Industrial 900
+	trade "Luxury Goods" 800
+	trade Medical 600
+	trade Metal 1000
+	trade Plastic 400
+	fleet "PMS Patrol" 1000
+	fleet "Small PMS Fleet" 2500
+	fleet "PMS Fleet" 5000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava5
+		distance 279
+		period 88
+	object
+		sprite planet/rock3
+		distance 965
+		period 365
+		object
+			sprite planet/rock17
+			distance 200
+			period 30
+	object "Hamburg"
+		sprite planet/rock11
+		distance 1564
+		period 687
+	object
+		sprite planet/gas1
+		distance 2400
+		period 2000
+		object "Station Reichstag"
+			sprite planet/station1
+			distance 250
+			period 10
+	
+	object
+		sprite planet/gas5
+		distance 3000
+		period 2500
+		object "Station Eins"
+			sprite planet/station5
+			distance 300
+			period 10
+
+system "Sol Ednum"
+	pos -825 80
+	habitable 1000
+	link "Reich"
+	link "Sol Skratta"
+	government Panzer Shipyards
+	trade Clothing 250
+	trade Electronics 500
+	trade Equipment 400
+	trade Food 300
+	trade "Heavy Metals" 1500
+	trade Industrial 900
+	trade "Luxury Goods" 800
+	trade Medical 600
+	trade Metal 1000
+	trade Plastic 400
+	fleet "PMS Patrol" 2000
+	fleet "Small PMS Fleet" 600
+	fleet "PMS Fleet" 1200
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert4
+		distance 500
+		period 182
+	object "Natura"
+		sprite planet/forest1
+		distance 1000
+		period 365
+	object "Mjolnir"
+		sprite planet/station0
+		distance 3000
+		period 456
+	object
+		sprite planet/gas4
+		distance 1700
+		period 821
+		object "Mortuus"
+			sprite planet/station7
+			distance 225
+			period 75
+	object
+		sprite planet/ice0
+		distance 2300
+		period 1031
+		
+system "Sol Skratta" #Pewds
+	pos -800 90
+	habitable 485
+	link "Sol Ednum"
+	link "Reich"
+	government Panzer Shipyards
+	trade Clothing 250
+	trade Electronics 500
+	trade Equipment 400
+	trade Food 300
+	trade "Heavy Metals" 1500
+	trade Industrial 900
+	trade "Luxury Goods" 800
+	trade Medical 600
+	trade Metal 1000
+	trade Plastic 400
+	fleet "PMS Patrol" 1000
+	fleet "Small PMS Fleet" 2500
+	fleet "PMS Fleet" 5000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert4
+		distance 395
+		period 166
+	object "Milo"
+		sprite planet/earth
+		distance 900
+		period 180
+		object "Moon Of Milo"
+			sprite planet/luna
+			distance 200
+			period 30
+	object
+		sprite planet/gas17
+		distance 2000
+		period 240
+		object
+			sprite planet/oberon
+			distance 300
+			period 35
+		object "Laplace"
+			sprite planet/station6
+			distance 400
+			period 40
+	object "Wormhole Epsilon" #Connects Faraway Location
+		sprite planet/wormhole
+		distance 6000
+		period 3000
+		

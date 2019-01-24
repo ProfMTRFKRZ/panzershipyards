@@ -1,0 +1,70 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+fleet "Reichstag Defense" #Defense When You Demand Tribute Capitol
+	government "Panzer Shipyards"
+	names "republic capital"
+	fighters "republic fighters"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 10
+		"PMS-X555" 10
+		
+fleet "PMS Patrol"
+	government "Panzer Shipyards"
+	names "republic small"
+	cargo 0
+	personality
+		surveillance opportunistic
+	variant 2
+		"PMS-10 (Scan)" 2
+	variant 1
+		"PMS-75"
+		
+fleet "Small PMS Fleet"
+	government "Panzer Shipyards"
+	names "republic small"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 3
+		"PMS-10 (Ionizer)" 1
+		"PMS-10 (Plundering)" 2
+	variant 2
+		"PMS-75" 3
+	variant 1
+		"PMS-45" 2
+		"PMS-45 (Heavy)" 1
+		
+fleet "PMS Fleet"
+	government "Panzer Shipyards"
+	names "republic capital"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 4
+		"PMS-60 (Missile)" 2
+		"PMS-60 (Heavy)" 1
+	variant 5
+		"PMS-100" 2
+		"PMS-100 (Trapper)" 1
+	variant 6
+		"PMS-100 (Heavy)" 2
+		"PMS-60 (Heavy)" 3
+		
+fleet "Dominion Small"
+	goverment "Dominion"
+	names "pirate"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 7
+		"Quietus"

@@ -1,0 +1,5 @@
+tip "superweapon:"
+	"Superweapon used by Wunderwaffe Ships. Cannot be removed"
+	
+tip "upgrade limit:"
+	"How many upgrades can a ship get."

@@ -1,0 +1,59 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Note: this file contains outfits and ships that are no longer used in the plugin, but that
+# must be maintained in case anyone installed one of them while they were available.
+
+#Intro Panzer Shipyards
+
+mission "Panzer Shipyards: Recontacted"
+	landing
+	name "Find the Source of Signal Emission"
+	description "This person ask you to investigate a system with unusual signal emission."
+	source
+		government "Free Worlds" "Syndicate" "Republic"
+	destination "Reichstag Station"
+	passengers 1
+	to offer
+		random < 50
+		has "main plot complete"
+	on offer
+		conversation
+			`After checking flight system routine of your ship, a man in formal wear approaches you as you exit your ship. "Sorry to bother you. Are you Captain <last>?" He asked.`
+			choice
+				`	"Yes, I am Captain <last>"`
+				`	"No."`
+					defer
+				`	"You need help?"`
+			`	"Well, I have been investigating a anomaly in a star system called "Reich" because of the unusual radio wave i received. You see the message is composed of standard language and other one is from other language. Will you help me out to investigate, since you have a Jump Drive?"`
+			choice
+				`	"How do you know the Jump Drive technology?"`
+					goto jumpdrive
+				`	"Sure, in the name of Science!"`
+					accept
+				`	"Sorry, I have another mission to do."`
+					decline
+			label jumpdrive
+			`	"You see, im a person who is aware of that Jump Drive technology since I work how to understand the working mechanism of Jump Drive."`
+			choice
+				`	"Oh, I see let's go"`
+					accept
+				`	"Sorry, Im quite busy right now."`
+	on enter Reich
+			log "Factions" "Panzer Shipyards" `A isolated human community whom lost contact 500 years ago during the Alpha Wars. due to that. They colonized the Sol Ednum and Sol Skratta through the used of colony ships which has been retrofitted to be used as a refinery stations.`
+			conversation
+				`	You notice some Human like ships navigating from one station to another station. Your communicator beeps up "You have been entering this system is under Panzer Shipyards please land on Reichstag Station."`	
+			on complete
+				payment 750000
+				conversation
+					`You land on a Station called "Reichstag" armed personnels are waiting you. A person in a formal wear ask you "Are you the one that received the radio message?"`
+				choice
+					`	"Actually, this person ask me to investigate this system which he says known for signal emissions."`
+					

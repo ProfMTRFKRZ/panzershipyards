@@ -1,0 +1,47 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#The Ships of the Panzer Shipyards are equivalent of T1.5-T2.8.
+#The Not Exclusive to Player Ships are T3-T4 Strongest
+shipyard "Panzer Shipyards Basic"
+	"PMS-10"
+	"PMS-15"
+	"PMS-30"
+	"PMS-45"
+	"PMS-60"
+	"PMS-75"
+	"PMS-100"
+	"PMS-125"
+
+shipyard "Wunderwaffe" #Panzer Shipyard's Wonder Weapon.
+	"PMS-X105 Harkonnen I" #Armed With Anti Fleet Cannon #Slow Rate of Fire And Slow Speed To Compensate The Cannon
+	"PMS-X440 Horten" #T2 Comparable To KIV 349 And Model 512
+	"PMS-X555" #T3 Ship #Now Requires Panzer Shipyards Approval
+	
+shipyard "PzS Common Products"
+	"Starbird"
+	"Vindicator"
+	"Hoarder"
+	"Nightingale"
+	"Peregrine Falcon"
+#""
+
+shipyard "Automatons"
+	"PZA-15"
+#PZAC-30 #Light Freighter 200 Cargo Capacity
+#PZAC-60 #Heavy Freighter 800 Cargo Capacity
+#PZA-120
+#PZA-240
+#PZA-480
+#PZA-960
+
+#Planned Ships
+#"PMS-125 Maus (Biggest of the PMS series Ship. T2)
+#"PMS-X1500 Ratte (Ship On Par With Quarg Ships, Pug Arfecta, and Punisher)

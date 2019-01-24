@@ -1,0 +1,462 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Adding attribute "upgrade limits" to all ship.
+#upgrade limits - the limits of a ship to install any #upgrades.
+#upgrades can get to 1 to 3 by default.
+#some ship class will not get a upgrade.
+#ship that will have upgrades:
+#Transport = 1
+#Interceptor = 1
+#Light Freighter = 1
+#Heavy Freighter = 2
+#Light Warship = 1
+#Medium Warship = 2
+#Heavy Warship = 3
+
+#Human Ships (Marauder Not Included.)
+
+ship "Aerie"
+	attributes
+		"upgrade limit" 1
+		
+ship "Argosy"
+	attributes
+		"upgrade limit" 1
+		
+ship "Arrow"
+	attributes
+		"upgrade limit" 1
+		
+ship "Bactrian"
+	attributes
+		"upgrade limit" 3
+
+ship "Bastion"
+	attributes
+		"upgrade limit" 2
+
+ship "Behemoth"
+	attributes
+		"upgrade limit" 2
+
+ship "Berserker"
+	attributes
+		"upgrade limit" 1
+
+ship "Blackbird"
+	attributes
+		"upgrade limit" 1
+		
+ship "Bounder"
+	attributes
+		"upgrade limit" 1
+
+ship "Bulk Freighter"
+	attributes
+		"upgrade limit" 2
+		
+ship "Carrier"
+	attributes
+		"upgrade limit" 3
+
+ship "Class C Freighter"
+	attributes
+		"upgrade limit" 3
+		
+ship "Clipper"
+	attributes
+		"upgrade limit" 1
+		
+ship "Corvette"
+	attributes
+		"upgrade limit" 2
+		
+ship "Cruiser"
+	attributes
+		"upgrade limit" 3
+		
+ship "Dreadnought"
+	attributes
+		"upgrade limit" 3
+		
+ship "Falcon"
+	attributes
+		"upgrade limit" 3
+		
+ship "Firebird"
+	attributes
+		"upgrade limit" 2
+		
+ship "Flivver"
+	attributes
+		"upgrade limit" 1
+		
+ship "Freighter"
+	attributes
+		"upgrade limit" 1
+		
+ship "Frigate"
+	attributes
+		"upgrade limit" 2
+		
+ship "Fury"
+	attributes
+		"upgrade limit" 1
+		
+ship "Gunboat"
+	attributes
+		"upgrade limit" 1
+		
+ship "Hauler"
+	attributes
+		"upgrade limit" 1
+		
+ship "Hauler II"
+	attributes
+		"upgrade limit" 2
+		
+ship "Hauler III"
+	attributes
+		"upgrade limit" 2
+		
+ship "Hawk"
+	attributes
+		"upgrade limit" 1
+		
+ship "Headhunter"
+	attributes
+		"upgrade limit" 1
+		
+ship "Heavy Shuttle"
+	attributes
+		"upgrade limit" 1
+		
+ship "Leviathan"
+	attributes
+		"upgrade limit" 3
+
+ship "Manta"
+	attributes
+		"upgrade limit" 2
+		
+ship "Modified Argosy"
+	attributes
+		"upgrade limit" 1
+		
+ship "Mule"
+	attributes
+		"upgrade limit" 2
+		
+ship "Nest"
+	attributes
+		"upgrade limit" 2
+		
+ship "Osprey"
+	attributes
+		"upgrade limit" 2
+		
+ship "Protector"
+	attributes
+		"upgrade limit" 3
+		
+ship "Quicksilver"
+	attributes
+		"upgrade limit" 1
+		
+ship "Rainmaker"
+	attributes
+		"upgrade limit" 1
+		
+ship "Raven"
+	attributes
+		"upgrade limit" 1
+		
+ship "Roost"
+	attributes
+		"upgrade limit" 2
+		
+ship "Scout"
+	attributes
+		"upgrade limit" 1
+
+ship "Shuttle"
+	attributes
+		"upgrade limit" 1
+
+ship "Skein"
+	attributes
+		"upgrade limit" 2
+
+ship "Sparrow"
+	attributes
+		"upgrade limit" 1
+		
+ship "Splinter"
+	attributes
+		"upgrade limit" 2
+
+ship "Star Barge"
+	attributes
+		"upgrade limit" 1
+		
+ship "Star Queen"
+	attributes
+		"upgrade limit" 1
+		
+ship "Vanguard"
+	attributes
+		"upgrade limit" 3
+		
+ship "Wasp"
+	attributes
+		"upgrade limit" 1
+		
+#Marauder Upgrade Limits
+
+ship "Marauder Arrow"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Arrow" "Marauder Arrow (Engines)"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Arrow" "Marauder Arrow (Weapons)"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Bounder"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Bounder" "Marauder Bounder (Engines)"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Bounder" "Marauder Bounder (Engines)"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Falcon"
+	attributes
+		"upgrade limit" 3
+		
+ship "Marauder Falcon" "Marauder Falcon (Engines)"
+	attributes
+		"upgrade limit" 3
+		
+ship "Marauder Falcon" "Marauder Falcon (Weapons)"
+	attributes
+		"upgrade limit" 3
+		
+ship "Marauder Firebird"
+	attributes
+		"upgrade limit" 2
+		
+ship "Marauder Firebird" "Marauder Firebird (Engines)"
+	attributes
+		"upgrade limit" 2
+		
+ship "Marauder Firebird" "Marauder Firebird (Weapons)"
+	attributes
+		"upgrade limit" 2
+		
+ship "Marauder Fury"
+	attributes
+		"upgrade limits" 1
+		
+ship "Marauder Leviathan"
+	attributes
+		"upgrade limit" 3
+		
+ship "Marauder Leviathan" "Marauder Leviathan (Engines)"
+	attributes
+		"upgrade limit" 3
+		
+ship "Marauder Leviathan" "Marauder Leviathan (Weapons)"
+	attributes
+		"upgrade limit" 3
+
+ship "Marauder Manta"
+	attributes
+		"upgrade limit" 2
+
+ship "Marauder Manta" "Marauder Manta (Engines)"
+	attributes
+		"upgrade limit" 2
+		
+ship "Marauder Manta" "Marauder Manta (Weapons)"
+	attributes
+		"upgrade limit" 2
+		
+ship "Marauder Quicksilver"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Quicksilver" "Marauder Quicksilver (Engines)"
+	attributes
+		"upgrade limit" 1
+
+ship "Marauder Quicksilver" "Marauder Quicksilver (Weapons)"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Raven"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Raven" "Marauder Raven (Engines)"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Raven" "Marauder Raven (Weapons)"
+	attributes
+		"upgrade limit" 1
+		
+ship "Marauder Splinter"
+	attributes
+		"upgrade limit" 2
+		
+ship "Marauder Splinter" "Marauder Splinter (Engines)"
+	attributes
+		"upgrade limit" 2
+
+ship "Marauder Splinter" "Marauder Splinter (Weaponss)"
+	attributes
+		"upgrade limit" 2
+		
+#Hai Ships
+
+ship "Aphid"
+	attributes
+		"upgrade limit" 1
+		
+ship "Lightning Bug"
+	attributes
+		"upgrade limit" 1
+		
+ship "Pond Strider"
+	attributes
+		"upgrade limit" 2
+		
+ship "Shield Beetle"
+	attributes
+		"upgrade limit" 3
+		
+ship "Solifuge"
+	attributes
+		"upgrade limit" 3
+		
+ship "Water Bug"
+	attributes
+		"upgrade limit" 2
+		
+ship "Centipede"
+	attributes
+		"upgrade limit" 1
+
+ship "Geocoris"
+	attributes
+		"upgrade limit" 2
+		
+ship "Grasshopper"
+	attributes
+		"upgrade limit" 1
+		
+#Pug Ships
+
+ship "Pug Zibruka"
+	attributes
+		"upgrade limit" 1
+		
+ship "Pug Enfolta"
+	attributes
+		"upgrade limit" 2
+		
+ship "Pug Maboro"
+	attributes
+		"upgrade limit" 3
+		
+ship "Pug Arfecta"
+	attributes
+		"upgrade limit" 2
+		
+#Coalition Ships
+
+ship "Arach Courier"
+	attributes
+		"upgrade limit" 1
+		
+ship "Arach Freighter"
+	attributes
+		"upgrade limit" 1
+
+ship "Arach Hulk"
+	attributes
+		"upgrade limit" 2
+		
+ship "Arach Spindle"
+	attributes
+		"upgrade limit" 2
+		
+ship "Arach Transport"
+	attributes
+		"upgrade limit" 1
+		
+ship "Heliarch Interdictor"
+	attributes
+		"upgrade limit" 2
+		
+ship "Heliarch Neutralizer"
+	attributes
+		"upgrade limit" 1
+		
+ship "Heliarch Punisher"
+	attributes
+		"upgrade limit" 3
+		
+ship "Kimer Briar"
+	attributes
+		"upgrade limit" 1
+		
+ship "Kimek Spire"
+	attributes
+		"upgrade limit" 1
+		
+ship "Kimek Thistle"
+	attributes
+		"upgrade limit" 1
+		
+ship "Kimek Thorn"
+	attributes
+		"upgrade limit" 1
+		
+ship "Saryd Runabout"
+	attributes
+		"upgrade limit" 1
+		
+ship "Saryd Sojourner"
+	attributes
+		"upgrade limit" 2
+		
+ship "Saryd Traveler"
+	attributes
+		"upgrade limit" 2
+		
+ship "Saryd Visitor"
+	attributes
+		"upgrade limit" 1
+		
+#Kestrel Upgrade Limits
+
+ship "Kestrel"
+	attributes
+		"upgrade limit" 3

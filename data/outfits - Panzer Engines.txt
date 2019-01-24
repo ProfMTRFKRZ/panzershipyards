@@ -1,0 +1,112 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+#Engines Exclusive to Panzer Shipyards.
+
+outfit "PZT-5 Engine"
+	category "Engines"
+	"cost" 305000
+	thumbnail "outfits/pzt5engine"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"turn" 750
+	"turning energy" 2.5
+	"turning heat" 2
+	"thrust" 37
+	"thrusting energy" 3.4
+	"thrusting heat" 10
+	"flare sprite" "effect/korath flare/tiny"
+		"frame rate" 8
+	"flare sprite" "effect/tachyonengines/tiny"
+		"frame rate" 1.2
+	"flare sound" "ion tiny"
+	description `The tiny engine employed by the Panzer Shipyards.`
+	description `When developing their Engines Panzer Shipyards dislike the idea of making steering and thruster separately, so they make engines and using it on their ships.`
+	description `Different from the Ion Engines from the Human Space. They seemed discovered the new way of propelling their ships, By heating the Xenon ions to the point that it gets overheated, the result is a fast, power hungry, and hot engines.`
+
+outfit "PZT-15 Engine"
+	category "Engines"
+	"cost" 900000
+	thumbnail "outfits/pzt5engine"
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"turn" 1130
+	"turning energy" 3.4
+	"turning heat" 3
+	"thrust" 59
+	"thrusting energy" 6.4
+	"thrusting heat" 15
+	"flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"flare sprite" "effect/tachyonengines/medium"
+		"frame rate" 9
+	"flare sound" "ion medium"
+	description `The medium engine employed by the Panzer Shipyards.`
+	description `When developing their Engines Panzer Shipyards dislike the idea of making steering and thruster separately, so they make engines and using it on their ships.`
+	description `Different from the Ion Engines from the Human Space. They seemed discovered the new way of propelling their ships, By heating the Xenon ions to the point that it gets overheated, the result is a fast, power hungry, and hot engines.`
+
+outfit "PZT-30 Engine"
+	category "Engines"
+	"cost" 1900000
+	thumbnail "outfits/pzt5engine"
+	"mass" 100
+	"outfit space" -100
+	"engine capacity" -100
+	"turn" 1700
+	"turning energy" 8.4
+	"turning heat" 20
+	"thrust" 81.3
+	"thrusting energy" 8.4
+	"thrusting heat" 20
+	"flare sprite" "effect/korath flare/medium"
+		"frame rate" 7
+	"flare sprite" "effect/tachyonengines/large"
+		"frame rate" 11
+	"flare sound" "ion large"
+	description `The large engine employed by the Panzer Shipyards.`
+	description `When developing their Engines Panzer Shipyards dislike the idea of making steering and thruster separately, so they make engines and using it on their ships.`
+	description `Different from the Ion Engines from the Human Space. They seemed discovered the new way of propelling their ships, By heating the Xenon ions to the point that it gets overheated, the result is a fast, power hungry, and hot engines.`
+
+outfit "PZT-45 Engine"
+	category "Engines"
+	"cost" 1900000
+	thumbnail "outfits/pzt5engine"
+	"mass" 150
+	"outfit space" -150
+	"engine capacity" -150
+	"turn" 2000
+	"turning energy" 12
+	"turning heat" 10
+	"thrust" 130
+	"thrusting energy" 10
+	"thrusting heat" 15
+	"flare sprite" "effect/korath flare/large"
+		"frame rate" 6.5
+	"flare sprite" "effect/tachyonengines/huge"
+		"frame rate" 11
+	"flare sound" "ion large"
+	description `The largest engine employed by the Panzer Shipyards.`
+	description `When developing their Engines Panzer Shipyards dislike the idea of making steering and thruster separately, so they make engines and using it on their ships.`
+	description `Different from the Ion Engines from the Human Space. They seemed discovered the new way of propelling their ships, By heating the Xenon ions to the point that it gets overheated, the result is a fast, power hungry, and hot engines.`
+	
+outfit "Tachyonic Afterburner"
+	category "Engines"
+	"cost" 540000
+	thumbnail "outfits/tachyonicengine"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"afterburner thrust" 60.0
+	"afterburner fuel" 0
+	"afterburner energy" 18
+	"afterburner heat" 24.0
+	"afterburner effect" "tachyonic afterburner"
+	description "The tachyonic afterburner is a Panzer Shipyard's afterburner used by warship or ordinary vessels."

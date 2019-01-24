@@ -1,0 +1,389 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Note: this file contains outfits and ships that are no longer used in the plugin, but that
+# must be maintained in case anyone installed one of them while they were available.
+
+
+ship "PMS-5 Karkov" #Replaced with PMS-10
+	sprite "ship/pms5karkov"
+	attributes
+		category "Light Warship"
+		"cost" 2000000
+		"shields" 8000
+		"hull" 4000
+		"required crew" 10
+		"bunks" 30
+		"mass" 200
+		"drag" 3.5
+		"heat dissipation" 0.6
+		"fuel capacity" 600
+		"cargo space" 80
+		"outfit space" 500
+		"weapon capacity" 200
+		"engine capacity" 125
+		ramscoop 4
+	weapon
+		"blast radius" 120
+		"shield damage" 1200
+		"hull damage" 600
+		"hit force" 1800
+	outfits
+		"FlSK-15" 2
+		"FlSK-15 Turm" 3
+		
+		"PZ-G-5 Generator"
+		"PZ-SC-5 Systems Core"
+		
+		"PZT-5 Engine"
+		"PZ-1 Drive"
+	
+	engine 20 70
+	engine -20 70
+	turret 0 0
+	turret 47 25
+	turret -47 25
+	gun 20 -70
+	gun -20 -70
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "PMS-5 Karkov is a Light Warship Is Made For Response to Navy's Gunboat, although its small for being a Light Warship the Armor and Shield of this small ship is equivalent of some Heavy Warship."
+	description "-Bought to you by the Panzer Shipyards, Hope You've come through with us."
+
+ship "Mann" #Gonna Move This To Deprecated
+	sprite "ship/pms15mann"
+	attributes
+		category "Medium Warship"
+		"cost" 5000000
+		"shields" 16000
+		"hull" 6800
+		"required crew" 50
+		"bunks" 120
+		"mass" 450
+		"drag" 6.1
+		"heat dissipation" .5
+		"fuel capacity" 700
+		"cargo space" 150
+		"outfit space" 750
+		"weapon capacity" 250
+		"engine capacity" 175
+		ramscoop 10
+		weapon
+			"blast radius" 228
+			"shield damage" 2280
+			"hull damage" 1140
+			"hit force" 3420
+	outfits
+		"FlSK-15" 4
+		"FlSK-15 Turm" 6
+		
+		"PZ-G-15 Generator"
+		"PZ-SC-15 Systems Core"
+		
+		"PZ-2 Drive"
+		"PZT-30 Engine"
+
+	engine -30 120
+	engine 30 120
+	turret 0 -25
+	turret 0 5
+	turret 0 35
+	turret 30 85
+	turret -30 85
+	turret 0 75
+	gun -50 40
+	gun	50 40
+	gun	-25 -45
+	gun 25 -45
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "the PMS-15 Mann a Medium Warship designed for prolonged combat. Made after the raids of Koraths in Southeast side of the Human Space. Have a Built-in Ramscoops for longer travels without landing to a planet nor a station. The Mann is armed with 4 Gunports and 6 Turret Ports to handle such problems like Koraths Raids or a Sizable fleet of Pirates at your disposal. 
+	-Bought to you by the Panzer Shipyards, Hope You've come through with us."
+
+ship "Sturmtruppen"
+	sprite "ship/pms30sturmtruppen"
+	attributes
+		category "Transport"
+		cost 5000000
+		"shields" 10000
+		"hull" 7500
+		"required crew" 45
+		"bunks" 300
+		"mass" 600
+		"drag" 9.5
+		"heat dissipation" .5
+		"fuel capacity" 800
+		"cargo space" 300
+		"outfit space" 500
+		"weapon capacity" 250
+		"engine capacity" 150
+		weapon
+			"blast radius" 175
+			"shield damage" 1750
+			"hull damage" 875
+			"hit force" 2625
+	outfits
+		"FlSK-15 Turm" 3
+		
+		"PZ-G-15 Generator"
+		"PZ-R-15 Ramscoop"
+		"PZ-SC-15 Systems Core"
+		
+		"PZ-1 Drive"
+		"PZT-15 Engine"
+	
+	engine -15 145
+	engine 15 145
+	turret 0 -32
+	turret 0 25
+	turret 0 100
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The PMS-30 Sturmtruppen is a Heavy Transport or just a modified PMS-15 for accommodating bunks. This Transport is designed as a bulky passenger transport or a heavy plundering ship for capturing ships."
+	description "Bought to you by the Panzer Shipyards"
+	
+#Outfits That Tends to Be Are OP ingame.
+
+outfit "Mark 1 Armor Plating"
+	plural "Mark 1 Armor Platings"
+	category "Systems"
+	cost 500000
+	thumbnail "outfit/unknown"
+	"mass" 25
+	"hull" 1000
+	description "Armor Plating for adding hull protection."
+	description "Brought to you by Panzer Shipyards"
+	
+outfit "Mark 2 Armor Plating"
+	plural "Mark 2 Armor Platings"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"hull" 2000
+	description "Armor Plating for adding hull protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 3 Armor Plating"
+	plural "Mark 3 Armor Platings"
+	category "Systems"
+	cost 2300000
+	thumbnail "outfit/unknown"
+	"mass" 75
+	"hull" 4000
+	description "Armor Plating for adding hull protection"
+	description "Brought to you by Panzer Shipyards"
+	
+outfit "Mark 4 Armor Plating"
+	plural "Mark 4 Platings"
+	category "Systems"
+	cost 3400000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"hull" 8000
+	description "Armor Plating for adding hull protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 5 Armor Plating"
+	plural "Mark 5 Platings"
+	category "Systems"
+	cost 5500000
+	thumbnail "outfit/unknown"
+	"mass" 125
+	"hull" 12000
+	description "Armor Plating for adding hull protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 6 Armor Plating"
+	plural "Mark 6 Platings"
+	category "Systems"
+	cost 10600000
+	thumbnail "outfit/unknown"
+	"mass" 150
+	"hull" 15000
+	description "Armor Plating for adding hull protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 7 Armor Plating"
+	plural "Mark 7 Platings"
+	category "Systems"
+	cost 18750000
+	thumbnail "outfit/unknown"
+	"mass" 200
+	"hull" 20000
+	description "Armor Plating for adding hull protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 8 Armor Plating"
+	plural "Mark 8 Armor Platings"
+	category "Systems"
+	cost 20000000
+	thumbnail "outfit/unknown"
+	"mass" 250
+	"hull" 25000
+	description "Armor Plating for adding hull protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 1 Shield Emitter"
+	plural "Mark 1 Shield Emitters"
+	category "Systems"
+	cost 500000
+	thumbnail "outfit/unknown"
+	"mass" 25
+	"shields" 1000
+	description "Shield Emitter for adding shield Protection."
+	description "Brought to you by Panzer Shipyards"
+	
+outfit "Mark 2 Shield Emitter"
+	plural "Mark 2 Shield Emitters"
+	category "Systems"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"shields" 2000
+	description "Shield Emitter for adding shield protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 3 Shield Emitter"
+	plural "Mark 3 Shield Emitters"
+	category "Systems"
+	cost 2300000
+	thumbnail "outfit/unknown"
+	"mass" 75
+	"shields" 4000
+	description "Shield Emitter for adding shield protection"
+	description "Brought to you by Panzer Shipyards"
+	
+outfit "Mark 4 Shield Emitter"
+	plural "Mark 4 Shield Emitters"
+	category "Systems"
+	cost 3400000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"shields" 8000
+	description "Shield Emitter for adding shield protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 5 Shield Emitter"
+	plural "Mark 5 Shield Emitters"
+	category "Systems"
+	cost 5500000
+	thumbnail "outfit/unknown"
+	"mass" 125
+	"shields" 12000
+	description "Shield Emitter for adding shield protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 6 Shield Emitter"
+	plural "Mark 6 Shield Emitters"
+	category "Systems"
+	cost 10600000
+	thumbnail "outfit/unknown"
+	"mass" 150
+	"shields" 15000
+	description "Shield Emitter for adding shield protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 7 Shield Emitter"
+	plural "Mark 7 Shield Emitters"
+	category "Systems"
+	cost 18750000
+	thumbnail "outfit/unknown"
+	"mass" 200
+	"shields" 20000
+	description "Shield Emitter for adding shield protection"
+	description "Brought to you by Panzer Shipyards"
+
+outfit "Mark 8 Shield Emitter"
+	plural "Mark 8 Shield Emitters"
+	category "Systems"
+	cost 20000000
+	thumbnail "outfit/unknown"
+	"mass" 250
+	"shields" 30000
+	description "Shield Emitter for adding shield protection"
+	description "Brought to you by Panzer Shipyards"
+	
+outfitter "Panzer Basic Armor Systems"
+	"Mark 1 Armor Plating"
+	"Mark 2 Armor Plating"
+	"Mark 3 Armor Plating"
+	"Mark 4 Armor Plating"
+	"Mark 1 Shield Emitter"
+	"Mark 2 Shield Emitter"
+	"Mark 3 Shield Emitter"
+	"Mark 4 Shield Emitter"
+
+outfitter "Panzer Advance Armor Systems"
+	"Mark 5 Armor Plating"
+	"Mark 6 Armor Plating"
+	"Mark 7 Armor Plating"
+	"Mark 8 Armor Plating"
+	"Mark 5 Shield Emitter"
+	"Mark 6 Shield Emitter"
+	"Mark 7 Shield Emitter"
+	"Mark 8 Shield Emitter"
+	
+#Outfits That Are In Used Because Dominated By Systems #Cores
+
+
+outfit "PZ-HR-15 Hull Mender"
+	plural "PZ-HR-15 Hull Menders"
+	category "Systems"
+	cost 750000
+	thumbnail "outfits/pz15hullmender"
+	"mass" 25
+	"outfit space" -25
+	"hull repair rate" 0.5
+	"hull energy" 0.5
+	"cooling" 13.5
+	description "The PZ-HR-15 is a hull mender that mends the ship hull to repair itself from damage and removes the excess heat from hull itself."
+	
+outfit "PZ-HR-30 Hull Mender"
+	plural "PZ-HR-15 Hull Menders"
+	category "Systems"
+	cost 1250000
+	thumbnail "outfits/pz30hullmender"
+	"mass" 35
+	"outfit space" -35
+	"hull repair rate" 0.8
+	"hull energy" 1
+	"cooling" 19.8
+	description "A Improved Version of the PZ-HR-15 Hull Mender."
+	
+outfit "PZ-S-15 Shielder"
+	category "Systems"
+	cost 725000
+	thumbnail "outfits/pz15shielder"
+	"mass" 25
+	"outfit space" -25
+	"shields" 2500
+	"shield generation" 2.5
+	"shield energy" 0.50
+	description "The PZ-S-15 Shielder. A small shielding system made by the Panzer Shipyard."
+	
+outfit "PZ-S-30 Shielder"
+	category "Systems"
+	cost 1250000
+	thumbnail "outfits/pz30shielder"
+	"mass" 35
+	"outfit space" -35
+	"shield" 5000
+	"shield generation" 4.4
+	"shield energy" 1.8
+	description "The PZ-S-15 Shield. A Medium Shielding System made by the Panzer Shipyard."

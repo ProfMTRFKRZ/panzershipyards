@@ -1,0 +1,33 @@
+# Copyright (c) 2018 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+government "Panzer Shipyards"
+	swizzle 1
+	color .50 .10 .10
+	
+	"player reputation" 0
+	"attitude toward"
+		"Pirate" -.1
+		"Dominion" -.1
+		"Merchant" .1
+	"bribe" 0.5
+	"fine" 0
+	"friend hail" "friendly civillian"
+	"hostile hail" "hostile civillian"
+
+government "Dominion"
+	swizzle 6
+	color .90 .40 .10
+	language "Korath"
+	
+	"player reputation" -1000
+	"attitude toward"
+		"Panzer Shipyards" -.1
+		"Merchant" -.1

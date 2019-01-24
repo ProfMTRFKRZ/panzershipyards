@@ -1,0 +1,55 @@
+effect "ionflamethrower die"
+	sprite "effect/ionexplosion/ionsmall"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 24
+	"random angle" 360
+	"random velocity" .4
+	"random spin" 2
+	"random frame rate" 5
+	"velocity scale" .4
+	
+effect "ionflamethrower hit"
+	sprite "effect/ionexplosion/ionmedium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random velocity" .6
+	"random spin" 3
+	"random frame rate" 5
+	"velocity scale" .4
+
+effect "emnuke residue fast"
+	sprite "effect/ionexplosion/huge"
+		"no repeat"
+		"frame rate" 15
+	"lifetime" 36
+	"random angle" 360
+	"random velocity" 8
+	"random spin" 5
+	"velocity scale" 0.1
+
+effect "emnuke residue slow"
+	sprite "effect/ionexplosion/huge"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 60
+	"random angle" 360
+	"random velocity" 5
+	"random spin" 5
+	"velocity scale" 0.1
+	
+effect "tachyonic afterburner"
+	sprite "effect/tachyonic afterburner"
+		"no repeat"
+		"frame rate" 30
+	sound "ionic afterburner"
+	sound "afterburner"
+	"lifetime" 12
+	"velocity scale" 1.
+	"random velocity" 1.
+	"random angle" 360
+	"random spin" 30

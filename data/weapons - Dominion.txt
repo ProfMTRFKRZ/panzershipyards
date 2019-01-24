@@ -1,0 +1,76 @@
+# Copyright (c) 2019 by Dominique Filomeno
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+#Note: this file contains outfits and ships that are no longer used in the plugin, but that
+# must be maintained in case anyone installed one of them while they were available.
+
+outfit "Detainer Organ"
+	category "Guns"
+	cost 1000000
+	thumbnail "outfits/detainerorgan"
+	"mass" 76
+	"outfit space" -76
+	"energy capacity" 1500
+	"gun ports" -1
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		sound "detainer"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "detainer sparks" 50
+		"inaccuracy" .5
+		"velocity" 20
+		"lifetime" 160
+		"reload" 60
+		"burst reload" 10
+		"burst count" 3
+		"firing energy" 756
+		"firing force" 50
+		"firing heat" 600
+		"hit force" 90
+		"shield damage" 600
+		"hull damage" 400
+		"slowing damage" 80
+		"blast radius" 25
+	description "Although not the most damaging weapon of Dominion. this organ is capable of firing a projectile that interrupts of the propulsion system of any ship it will be enslaved."
+	
+outfit "Seeker Nest"
+	category "Guns"
+	cost 1000000
+	thumbnail "outfits/seekernest"
+	"mass" 34
+	"outfit space" -76
+	"energy capacity" 500
+	"gun ports" -1
+	weapon
+		sprite "projectile/seeker"
+			"frame rate" 20
+			"random start frame"
+		sound "seeker"
+		"hit effect" "seeker impact"
+		"die effect" "seeker impact"
+		"inaccuracy" 2
+		"velocity" 15
+		"lifetime" 300
+		"reload" 10
+		"firing energy" 25
+		"firing heat" 20
+		"acceleration" 1.5
+		"drag" .1
+		"turn" 5
+		"homing" 5
+		"tracking" .5
+		"shield damage" 75
+		"hull damage" 45
+		"hit force" 2
+		"missile strength" 35
+	description "This weapon uses the strange lifeform called "Seeker", a native lifeform on a planet that can survive the harsh of space. these lifeforms makes sort of hive-like structure to be served as a colony of those."
+	description "The Dominion bioengineered those creatures to be used as weapons for now. These creatures will target any ship that targeted by Dominion."
